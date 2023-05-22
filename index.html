@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- CSS Custom-->
@@ -15,36 +16,112 @@
 
     <main>
 
+      <div class="header__bg">
+        
         <nav class="navbar navbar-expand-lg bg-transparent">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                   Navbar
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <!--<span class="navbar-toggler-icon"></span>--> 
-                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                </svg>
-                </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link">Disabled</a>
-                  </li>
-                </ul>
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                 Void
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <!--<span class="navbar-toggler-icon"></span>--> 
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index2.html">Home?</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+        <!--header content-->
+        <div class="header__content container-fluid d-flex pt-5 d-flex align-items-center justify-content-center">
+          <div class="row">
+        <!--Texto-->
+            <div class="col-12 col-sm-6 d-flex flex-column justify-content-center">
+              <h1>Rise the world</h1>
+              <p>
+                La Tierra es un planeta ubicado en el sistema solar, específicamente en la tercera órbita alrededor del Sol. Es el hogar de una amplia variedad de formas de vida, incluyendo animales, plantas y millones de especies diferentes.
+                
+                En términos de su estructura, la Tierra se compone de varias capas. En el núcleo interno, se encuentra una región sólida compuesta principalmente de hierro y níquel. El núcleo externo, por otro lado, es líquido y está en constante movimiento, lo que crea un campo magnético que protege al planeta de la radiación solar dañina.
+                </p>
+            </div>
+        <!--Img-->
+            <div class="col-12 col-sm-6 d-flex flex-column justify-content-center">
+              <img class="img-fluid header__img" src="img/tierra.png" alt="imagen de un satelite">
+            </div>
+          </div>  
+        </div>
+      </div>
+
+      <!--Galeria-->
+      <section class="galeria">
+        <div class="container">
+          <!--Titurlo-->
+          <div class="row">
+            <h2 class="mb-5 display-3 fw-semibold">The great gig in the sky</h2>
+          </div>
+          <div class="row">
+            <!--1-->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <img class="img-fluid" src="img/saturno.png" alt="saturno">
+              <div class="mt-4">
+                <span>Saturno</span>
               </div>
             </div>
-          </nav>
+            <!--2-->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <img class="img-fluid" src="img/marte.png" alt="marte">
+              <div class="mt-4">
+                <span>Marte</span>
+              </div>
+            </div>
+            <!--3-->
+            <div class="col-12 col-sm-6 col-lg-4">
+              <img class="img-fluid" src="img/nebulosa.png" alt="nebulosa">
+              <div class="mt-4">
+                <span>Nebulosa ojo de dios</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
     </main>
     
 
     <!--<script src="js/bootstrap.bundle.min.js"></script>-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <footer class="footer__content">
+      <div class="footer__nav d-flex flex-column flex-md-row justify-content-between">
+        <div>
+          <img src="img/fases-de-la-luna.png" alt="logo">
+          Rise the world
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-md-row justify-content-between mt-5">
+        <p>© 2023 - Welcome to the machine (ia) </p>
+        <div class="d-flex gap-2">
+          <div>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
